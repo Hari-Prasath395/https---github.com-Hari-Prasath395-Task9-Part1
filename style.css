@@ -1,0 +1,81 @@
+/* CSS code with corrected style rule */
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+#container {
+  background-color: aliceblue;
+  height: 100vh;
+  width: 100vw;
+  text-align: start;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#cal-container {
+  background-color: rgb(139, 62, 62);
+  height: 30%;
+  margin-bottom: 300px;
+  color: #fff;
+  text-align: center;
+  border: #3e8e41;
+}
+
+.display {
+  width: 97%;
+  height: 50px;
+  font-size: 36px;
+  text-align: right;
+  border: none;
+  outline: none;
+  padding: 5px;
+}
+
+.buttons {
+  width: 25%;
+  height: 60px;
+  font-size: 30px;
+  border: none;
+  outline: none;
+  background-color: #e6e6e6;
+  cursor: pointer;
+}
+
+.buttons:hover {
+  background-color: #d4d4d4;
+}
+
+#clear,
+#button-DE,
+#button-percent,
+#button-Divide {
+  background-color: #ffa500;
+  color: #fff;
+}
+
+#clear:hover,
+#button-DE:hover,
+#button-percent:hover,
+#button-Divide:hover {
+  background-color: #ff8c00;
+}
+
+#Multiply,
+#subtract,
+#add,
+#equal {
+  background-color: #4caf50;
+  color: #fff;
+}
+
+#button-Mul:hover,
+#button-Sub:hover,
+#button-Add:hover,
+#button-Equal:hover {
+  background-color: #3e8e41;
+}
+/* #title{
+  text-align: center;
+} */
